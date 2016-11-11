@@ -17,17 +17,17 @@
                         <viewControllerLayoutGuide type="bottom" id="iOC-Ne-3sk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yG8-jP-NP4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="106" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ef9-6r-aOD">
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="106" id="PVm-ac-Htn" customClass="ContentTableViewCell" customModule="FIF_16" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="320" height="106"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="106"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="PVm-ac-Htn" id="bce-q3-Y8c">
-                                            <frame key="frameInset" width="320" height="105"/>
+                                            <frame key="frameInset" width="375" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0t-XR-Y8j">
@@ -121,33 +121,33 @@
                         <viewControllerLayoutGuide type="bottom" id="qtq-uq-GfU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SXI-UU-eUu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="465" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6He-KN-pYW">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="NSe-Ru-vT7">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="253"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cafeGaleriaAmparo" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-ol-EBl">
-                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perro" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-ol-EBl">
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="leading" secondItem="NSe-Ru-vT7" secondAttribute="leading" id="0bZ-B3-Lhe"/>
-                                        <constraint firstAttribute="trailing" secondItem="0yc-ol-EBl" secondAttribute="trailing" id="Dqi-KT-UNh"/>
-                                        <constraint firstAttribute="bottom" secondItem="0yc-ol-EBl" secondAttribute="bottom" id="NUX-vQ-THn"/>
-                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="top" secondItem="NSe-Ru-vT7" secondAttribute="top" id="nPY-KJ-gXD"/>
+                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="leading" secondItem="NSe-Ru-vT7" secondAttribute="leading" constant="3" id="0bZ-B3-Lhe"/>
+                                        <constraint firstAttribute="trailing" secondItem="0yc-ol-EBl" secondAttribute="trailing" constant="3" id="Dqi-KT-UNh"/>
+                                        <constraint firstAttribute="bottom" secondItem="0yc-ol-EBl" secondAttribute="bottom" constant="3" id="NUX-vQ-THn"/>
+                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="top" secondItem="NSe-Ru-vT7" secondAttribute="top" constant="3" id="nPY-KJ-gXD"/>
                                     </constraints>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellIdentifier" rowHeight="465" id="Iiw-gX-kQc" customClass="DetailTableViewCell" customModule="FIF_16" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="172" width="320" height="465"/>
+                                        <rect key="frame" x="0.0" y="281" width="375" height="465"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Iiw-gX-kQc" id="Es7-Fc-WwU">
-                                            <frame key="frameInset" width="320" height="464"/>
+                                            <frame key="frameInset" width="375" height="464"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrT-zT-QYH">
@@ -236,14 +236,14 @@
                                                 <constraint firstItem="nDI-kj-c7H" firstAttribute="trailing" secondItem="LlW-R8-qLP" secondAttribute="trailing" id="fgd-dI-Khs"/>
                                                 <constraint firstItem="Xg0-OP-9Mw" firstAttribute="trailing" secondItem="SfD-NQ-wU7" secondAttribute="trailing" id="hTW-aP-1GI"/>
                                                 <constraint firstItem="Xg0-OP-9Mw" firstAttribute="leading" secondItem="SfD-NQ-wU7" secondAttribute="leading" id="j2S-Z5-DOo"/>
-                                                <constraint firstItem="WrT-zT-QYH" firstAttribute="top" secondItem="Es7-Fc-WwU" secondAttribute="topMargin" id="kU2-yV-YdZ"/>
+                                                <constraint firstItem="WrT-zT-QYH" firstAttribute="top" secondItem="Es7-Fc-WwU" secondAttribute="topMargin" constant="21" id="kU2-yV-YdZ"/>
                                                 <constraint firstItem="Ree-AL-Rgf" firstAttribute="top" secondItem="hXj-DJ-3z7" secondAttribute="bottom" constant="8" id="l3F-34-XF0"/>
                                                 <constraint firstItem="SfD-NQ-wU7" firstAttribute="top" secondItem="lfn-aF-jbl" secondAttribute="bottom" constant="8" id="lXf-p3-Tjd"/>
                                                 <constraint firstItem="hXj-DJ-3z7" firstAttribute="top" secondItem="Xg0-OP-9Mw" secondAttribute="bottom" constant="8" id="qR4-Ru-35N"/>
                                                 <constraint firstItem="nDI-kj-c7H" firstAttribute="leading" secondItem="LlW-R8-qLP" secondAttribute="leading" id="sbo-pa-02P"/>
                                                 <constraint firstItem="LlW-R8-qLP" firstAttribute="trailing" secondItem="rtJ-22-ifx" secondAttribute="trailing" id="t1t-0V-tdW"/>
                                                 <constraint firstItem="rtJ-22-ifx" firstAttribute="leading" secondItem="RxJ-Tn-7uO" secondAttribute="leading" id="tPi-xq-qtb"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Ree-AL-Rgf" secondAttribute="bottom" constant="29" id="vlo-Kp-mTi"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Ree-AL-Rgf" secondAttribute="bottom" constant="34" id="vlo-Kp-mTi"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -272,6 +272,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="0yc-ol-EBl" id="YTv-KW-Xyx"/>
                         <outlet property="tableView" destination="6He-KN-pYW" id="0nb-9Z-nyq"/>
                     </connections>
                 </viewController>
@@ -288,7 +289,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EmM-oy-FTz" customClass="ACTabScrollView" customModule="FIF_16" customModuleProvider="target">
@@ -350,7 +351,7 @@
                         <viewControllerLayoutGuide type="bottom" id="14B-mi-1zy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hd5-6J-MDH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTT-i0-ccm" customClass="ACTabScrollView" customModule="FIF_16" customModuleProvider="target">
@@ -375,6 +376,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cafeGaleriaAmparo" width="4725" height="3165"/>
+        <image name="perro" width="1024" height="768"/>
     </resources>
 </document>

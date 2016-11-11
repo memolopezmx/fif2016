@@ -98,7 +98,7 @@ class ContentViewController: UIViewController, UITableViewDelegate, UITableViewD
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier) == "detailContentIdentifier" {
                 let vc = segue.destination as! DetailContentViewController
-                vc.algo = "adf"
+//                vc.algo = "adf"
         }
     }
  
