@@ -28,7 +28,7 @@ class DetailContentViewController: UIViewController, UITableViewDataSource, UITa
         //Esto porque sino no carga la imagen
         //Al mover el scroll se carga ScrollViewDidScroll
         //Y a su vez setNewView
-        tableView.contentOffset = CGPoint(x: 0, y: 1)
+        tableView.contentOffset = CGPoint(x: 0, y: -253)
     
     }
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
