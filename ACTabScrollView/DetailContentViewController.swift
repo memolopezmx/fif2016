@@ -101,7 +101,21 @@ class DetailContentViewController: UIViewController, UITableViewDataSource, UITa
         return 464 
         
     }
-
+    //Shake Gesture
+    override var canBecomeFirstResponder: Bool {
+        return true
+        
+    }
+    //Shake Gesture - CREDITOS
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            let message = "Programación. David Guillermo López Vázquez 😎\nCorreo. ginppian@icloud.com\nProgramación. Miguel Mexicano Herrera 🤓\nCorreo. miguelmexicano18@gmail.com\n"
+            let alert = UIAlertController(title: "📲Desarrado por:📲", message: message, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+    }
 
 
 }

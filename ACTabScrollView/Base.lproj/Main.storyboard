@@ -317,7 +317,13 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Festival Fotografía 2016" id="NAq-u5-BOf"/>
+                    <navigationItem key="navigationItem" title="Festival Fotografía 2016" id="NAq-u5-BOf">
+                        <barButtonItem key="rightBarButtonItem" title="📷" style="plain" id="lI2-pB-yuy">
+                            <connections>
+                                <segue destination="Afg-MK-sV8" kind="show" id="HTw-AJ-eUu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tabScrollView" destination="EmM-oy-FTz" id="A9y-As-Mpq"/>
                     </connections>
@@ -325,6 +331,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="476" y="254"/>
+        </scene>
+        <!--Revista View Controller-->
+        <scene sceneID="3Qc-AH-ldG">
+            <objects>
+                <viewController id="Afg-MK-sV8" customClass="RevistaViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cfb-Jh-2IC"/>
+                        <viewControllerLayoutGuide type="bottom" id="S1O-iK-iBc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RdB-gK-Ukx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" minimumZoomScale="5" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="4Jn-nJ-UU8">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Jn-nJ-UU8" secondAttribute="trailing" constant="-16" id="A86-My-opg"/>
+                            <constraint firstItem="4Jn-nJ-UU8" firstAttribute="centerX" secondItem="RdB-gK-Ukx" secondAttribute="centerX" id="QVY-Jr-Vg4"/>
+                            <constraint firstItem="4Jn-nJ-UU8" firstAttribute="top" secondItem="cfb-Jh-2IC" secondAttribute="bottom" id="SgW-HZ-zTI"/>
+                            <constraint firstItem="4Jn-nJ-UU8" firstAttribute="bottom" secondItem="S1O-iK-iBc" secondAttribute="top" id="VR2-qt-H4Z"/>
+                            <constraint firstItem="4Jn-nJ-UU8" firstAttribute="leading" secondItem="RdB-gK-Ukx" secondAttribute="leadingMargin" constant="-16" id="Xnq-bg-SpW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="4Jn-nJ-UU8" id="ddE-Kd-hzv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o5U-ZQ-jMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1239.2" y="142.57871064467767"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GEy-EU-kdF">
