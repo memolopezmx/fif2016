@@ -130,7 +130,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="253"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perro" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-ol-EBl">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ibero" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-ol-EBl">
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
                                     </subviews>
@@ -328,7 +328,7 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Festival Fotografía 2016" id="NAq-u5-BOf">
-                        <barButtonItem key="rightBarButtonItem" title="📷" style="plain" id="lI2-pB-yuy">
+                        <barButtonItem key="rightBarButtonItem" title="📷" id="lI2-pB-yuy">
                             <connections>
                                 <segue destination="Afg-MK-sV8" kind="show" id="HTw-AJ-eUu"/>
                             </connections>
@@ -425,6 +425,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="perro" width="1024" height="768"/>
+        <image name="ibero" width="2022" height="1276"/>
     </resources>
 </document>
