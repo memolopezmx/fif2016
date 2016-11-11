@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C7088FA1DD31BDB0001F87F /* EventoFIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7088F91DD31BDB0001F87F /* EventoFIF.swift */; };
 		3C7088FC1DD321AC0001F87F /* DetailContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7088FB1DD321AC0001F87F /* DetailContentViewController.swift */; };
+		3C7089441DD589AF0001F87F /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7089431DD589AF0001F87F /* DetailTableViewCell.swift */; };
 		530068331CEDDE7600A80F09 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530068321CEDDE7600A80F09 /* ContentViewController.swift */; };
 		530068351CF0512F00A80F09 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530068341CF0512F00A80F09 /* MockData.swift */; };
 		53887DDB1CE8AD3D001E6FD3 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53887DDA1CE8AD3D001E6FD3 /* DemoViewController.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		3C7088F91DD31BDB0001F87F /* EventoFIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoFIF.swift; sourceTree = "<group>"; };
 		3C7088FB1DD321AC0001F87F /* DetailContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContentViewController.swift; sourceTree = "<group>"; };
+		3C7089431DD589AF0001F87F /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewCell.swift; path = ../DetailTableViewCell.swift; sourceTree = "<group>"; };
 		530068321CEDDE7600A80F09 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		530068341CF0512F00A80F09 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		53887DDA1CE8AD3D001E6FD3 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
@@ -92,16 +94,14 @@
 		6DB0CD221B8462B90069AE39 /* ACTabScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				6DB0CD251B8462B90069AE39 /* AppDelegate.swift */,
 				530068341CF0512F00A80F09 /* MockData.swift */,
 				6DB0CD271B8462B90069AE39 /* NewsViewController.swift */,
 				530068321CEDDE7600A80F09 /* ContentViewController.swift */,
 				53887DDA1CE8AD3D001E6FD3 /* DemoViewController.swift */,
 				3C7088F91DD31BDB0001F87F /* EventoFIF.swift */,
 				3C7088FB1DD321AC0001F87F /* DetailContentViewController.swift */,
+				3C7089431DD589AF0001F87F /* DetailTableViewCell.swift */,
 				6DB0CD291B8462B90069AE39 /* Main.storyboard */,
-				6DB0CD2C1B8462B90069AE39 /* Images.xcassets */,
-				6DB0CD2E1B8462B90069AE39 /* LaunchScreen.xib */,
 				6DB0CD231B8462B90069AE39 /* Supporting Files */,
 			);
 			path = ACTabScrollView;
@@ -110,7 +110,10 @@
 		6DB0CD231B8462B90069AE39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DB0CD251B8462B90069AE39 /* AppDelegate.swift */,
 				6DB0CD241B8462B90069AE39 /* Info.plist */,
+				6DB0CD2C1B8462B90069AE39 /* Images.xcassets */,
+				6DB0CD2E1B8462B90069AE39 /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				3C7088FC1DD321AC0001F87F /* DetailContentViewController.swift in Sources */,
 				3C7088FA1DD31BDB0001F87F /* EventoFIF.swift in Sources */,
 				530068351CF0512F00A80F09 /* MockData.swift in Sources */,
+				3C7089441DD589AF0001F87F /* DetailTableViewCell.swift in Sources */,
 				53887DDB1CE8AD3D001E6FD3 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

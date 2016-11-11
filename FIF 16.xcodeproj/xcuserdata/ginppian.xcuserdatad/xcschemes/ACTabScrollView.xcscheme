@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DB0CD1F1B8462B90069AE39"
-               BuildableName = "ACTabScrollView.app"
+               BuildableName = "FIF 16.app"
                BlueprintName = "FIF 16"
                ReferencedContainer = "container:FIF 16.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DB0CD341B8462B90069AE39"
-               BuildableName = "ACTabScrollView.xctest"
+               BuildableName = "FIF 16.xctest"
                BlueprintName = "FIF 16Tests"
                ReferencedContainer = "container:FIF 16.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DB0CD1F1B8462B90069AE39"
-            BuildableName = "ACTabScrollView.app"
+            BuildableName = "FIF 16.app"
             BlueprintName = "FIF 16"
             ReferencedContainer = "container:FIF 16.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DB0CD1F1B8462B90069AE39"
-            BuildableName = "ACTabScrollView.app"
+            BuildableName = "FIF 16.app"
             BlueprintName = "FIF 16"
             ReferencedContainer = "container:FIF 16.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DB0CD1F1B8462B90069AE39"
-            BuildableName = "ACTabScrollView.app"
+            BuildableName = "FIF 16.app"
             BlueprintName = "FIF 16"
             ReferencedContainer = "container:FIF 16.xcodeproj">
          </BuildableReference>

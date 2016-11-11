@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,23 +11,23 @@
         <!--Content View Controller-->
         <scene sceneID="bBX-AD-qtq">
             <objects>
-                <viewController storyboardIdentifier="ContentViewController" id="WrF-c2-0aN" customClass="ContentViewController" customModule="ACTabScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContentViewController" id="WrF-c2-0aN" customClass="ContentViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wWF-G9-sRL"/>
                         <viewControllerLayoutGuide type="bottom" id="iOC-Ne-3sk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yG8-jP-NP4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="106" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ef9-6r-aOD">
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="106" id="PVm-ac-Htn" customClass="ContentTableViewCell" customModule="ACTabScrollView" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="375" height="106"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="106" id="PVm-ac-Htn" customClass="ContentTableViewCell" customModule="FIF_16" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="56" width="320" height="106"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="PVm-ac-Htn" id="bce-q3-Y8c">
-                                            <frame key="frameInset" width="375" height="105"/>
+                                            <frame key="frameInset" width="320" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0t-XR-Y8j">
@@ -42,7 +43,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.1019607843" green="0.5568627451" blue="0.85098039219999999" alpha="0.20999999999999999" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.8163793683052063" green="0.92102378606796265" blue="0.97549194097518921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="V4M-zK-ChZ" secondAttribute="trailing" constant="8" id="3b8-Ya-DQI"/>
                                                         <constraint firstAttribute="bottom" secondItem="vvX-Jg-9HQ" secondAttribute="bottom" constant="8" id="E1B-0z-YS6"/>
@@ -114,34 +115,183 @@
         <!--Detail Content View Controller-->
         <scene sceneID="LH1-CB-esY">
             <objects>
-                <viewController id="Loc-5b-P8m" customClass="DetailContentViewController" customModule="ACTabScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Loc-5b-P8m" customClass="DetailContentViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0J5-Z6-tFH"/>
                         <viewControllerLayoutGuide type="bottom" id="qtq-uq-GfU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SXI-UU-eUu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="465" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6He-KN-pYW">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="NSe-Ru-vT7">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cafeGaleriaAmparo" translatesAutoresizingMaskIntoConstraints="NO" id="0yc-ol-EBl">
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="leading" secondItem="NSe-Ru-vT7" secondAttribute="leading" id="0bZ-B3-Lhe"/>
+                                        <constraint firstAttribute="trailing" secondItem="0yc-ol-EBl" secondAttribute="trailing" id="Dqi-KT-UNh"/>
+                                        <constraint firstAttribute="bottom" secondItem="0yc-ol-EBl" secondAttribute="bottom" id="NUX-vQ-THn"/>
+                                        <constraint firstItem="0yc-ol-EBl" firstAttribute="top" secondItem="NSe-Ru-vT7" secondAttribute="top" id="nPY-KJ-gXD"/>
+                                    </constraints>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellIdentifier" rowHeight="465" id="Iiw-gX-kQc" customClass="DetailTableViewCell" customModule="FIF_16" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="172" width="320" height="465"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Iiw-gX-kQc" id="Es7-Fc-WwU">
+                                            <frame key="frameInset" width="320" height="464"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evento:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrT-zT-QYH">
+                                                    <color key="backgroundColor" red="0.81637936830000002" green="0.92102378610000002" blue="0.97549194100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foto con Plastilina" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxJ-Tn-7uO">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15:30am" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtJ-22-ifx">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ponente:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlW-R8-qLP">
+                                                    <color key="backgroundColor" red="0.81637936830000002" green="0.92102378610000002" blue="0.97549194100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miguel Mexicano" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDI-kj-c7H">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rusia" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfn-aF-jbl">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sede:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-NQ-wU7">
+                                                    <color key="backgroundColor" red="0.81637936830000002" green="0.92102378610000002" blue="0.97549194100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privada la vernta numero 33 colonia san pablo xochimehuacan" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg0-OP-9Mw">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXj-DJ-3z7">
+                                                    <color key="backgroundColor" red="0.81637936830000002" green="0.92102378610000002" blue="0.97549194100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ree-AL-Rgf">
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <string key="text">Somos un evento organizado por la benemerita universidad autonoma de puebla en colaboracion con el integrante de grado honorifico zhemo zavala guero Somos un evento organizado por la benemerita universidad autonoma de puebla en colaboracion con el integrante de grado honorifico zhemo zavala guero </string>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="LlW-R8-qLP" firstAttribute="top" secondItem="rtJ-22-ifx" secondAttribute="bottom" constant="8" id="0Bq-aQ-Wxp"/>
+                                                <constraint firstItem="RxJ-Tn-7uO" firstAttribute="leading" secondItem="WrT-zT-QYH" secondAttribute="leading" id="31y-RK-QoR"/>
+                                                <constraint firstItem="SfD-NQ-wU7" firstAttribute="leading" secondItem="lfn-aF-jbl" secondAttribute="leading" id="4gK-6V-GJz"/>
+                                                <constraint firstItem="LlW-R8-qLP" firstAttribute="leading" secondItem="rtJ-22-ifx" secondAttribute="leading" id="6LM-n4-o1t"/>
+                                                <constraint firstItem="RxJ-Tn-7uO" firstAttribute="top" secondItem="WrT-zT-QYH" secondAttribute="bottom" constant="8" id="7zP-c3-7gx"/>
+                                                <constraint firstItem="hXj-DJ-3z7" firstAttribute="leading" secondItem="Xg0-OP-9Mw" secondAttribute="leading" id="9mA-JH-sUk"/>
+                                                <constraint firstItem="lfn-aF-jbl" firstAttribute="trailing" secondItem="nDI-kj-c7H" secondAttribute="trailing" id="G9o-J6-AiZ"/>
+                                                <constraint firstItem="SfD-NQ-wU7" firstAttribute="trailing" secondItem="lfn-aF-jbl" secondAttribute="trailing" id="Hlu-at-o1d"/>
+                                                <constraint firstItem="rtJ-22-ifx" firstAttribute="top" secondItem="RxJ-Tn-7uO" secondAttribute="bottom" constant="8" id="JNf-us-RwD"/>
+                                                <constraint firstItem="hXj-DJ-3z7" firstAttribute="trailing" secondItem="Xg0-OP-9Mw" secondAttribute="trailing" id="MpC-Zr-mps"/>
+                                                <constraint firstItem="RxJ-Tn-7uO" firstAttribute="trailing" secondItem="WrT-zT-QYH" secondAttribute="trailing" id="NTK-KA-3E9"/>
+                                                <constraint firstItem="Ree-AL-Rgf" firstAttribute="trailing" secondItem="hXj-DJ-3z7" secondAttribute="trailing" id="NXf-BT-COF"/>
+                                                <constraint firstItem="nDI-kj-c7H" firstAttribute="top" secondItem="LlW-R8-qLP" secondAttribute="bottom" constant="8" id="UHs-2n-4JB"/>
+                                                <constraint firstItem="Xg0-OP-9Mw" firstAttribute="top" secondItem="SfD-NQ-wU7" secondAttribute="bottom" constant="8" id="Wni-4M-x3g"/>
+                                                <constraint firstItem="WrT-zT-QYH" firstAttribute="leading" secondItem="Es7-Fc-WwU" secondAttribute="leadingMargin" id="ZJV-q5-7Pc"/>
+                                                <constraint firstItem="lfn-aF-jbl" firstAttribute="top" secondItem="nDI-kj-c7H" secondAttribute="bottom" constant="8" id="Zbx-iL-bQL"/>
+                                                <constraint firstItem="Ree-AL-Rgf" firstAttribute="leading" secondItem="hXj-DJ-3z7" secondAttribute="leading" id="aC6-wP-rY9"/>
+                                                <constraint firstItem="WrT-zT-QYH" firstAttribute="trailing" secondItem="Es7-Fc-WwU" secondAttribute="trailingMargin" id="c4a-dJ-dem"/>
+                                                <constraint firstItem="lfn-aF-jbl" firstAttribute="leading" secondItem="nDI-kj-c7H" secondAttribute="leading" id="eDf-QH-Ekj"/>
+                                                <constraint firstItem="rtJ-22-ifx" firstAttribute="trailing" secondItem="RxJ-Tn-7uO" secondAttribute="trailing" id="fbZ-aa-omz"/>
+                                                <constraint firstItem="nDI-kj-c7H" firstAttribute="trailing" secondItem="LlW-R8-qLP" secondAttribute="trailing" id="fgd-dI-Khs"/>
+                                                <constraint firstItem="Xg0-OP-9Mw" firstAttribute="trailing" secondItem="SfD-NQ-wU7" secondAttribute="trailing" id="hTW-aP-1GI"/>
+                                                <constraint firstItem="Xg0-OP-9Mw" firstAttribute="leading" secondItem="SfD-NQ-wU7" secondAttribute="leading" id="j2S-Z5-DOo"/>
+                                                <constraint firstItem="WrT-zT-QYH" firstAttribute="top" secondItem="Es7-Fc-WwU" secondAttribute="topMargin" id="kU2-yV-YdZ"/>
+                                                <constraint firstItem="Ree-AL-Rgf" firstAttribute="top" secondItem="hXj-DJ-3z7" secondAttribute="bottom" constant="8" id="l3F-34-XF0"/>
+                                                <constraint firstItem="SfD-NQ-wU7" firstAttribute="top" secondItem="lfn-aF-jbl" secondAttribute="bottom" constant="8" id="lXf-p3-Tjd"/>
+                                                <constraint firstItem="hXj-DJ-3z7" firstAttribute="top" secondItem="Xg0-OP-9Mw" secondAttribute="bottom" constant="8" id="qR4-Ru-35N"/>
+                                                <constraint firstItem="nDI-kj-c7H" firstAttribute="leading" secondItem="LlW-R8-qLP" secondAttribute="leading" id="sbo-pa-02P"/>
+                                                <constraint firstItem="LlW-R8-qLP" firstAttribute="trailing" secondItem="rtJ-22-ifx" secondAttribute="trailing" id="t1t-0V-tdW"/>
+                                                <constraint firstItem="rtJ-22-ifx" firstAttribute="leading" secondItem="RxJ-Tn-7uO" secondAttribute="leading" id="tPi-xq-qtb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Ree-AL-Rgf" secondAttribute="bottom" constant="29" id="vlo-Kp-mTi"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="labelDescripcion" destination="Ree-AL-Rgf" id="8qG-jR-r3F"/>
+                                            <outlet property="labelEvento" destination="RxJ-Tn-7uO" id="JzG-8Z-1Sv"/>
+                                            <outlet property="labelHora" destination="rtJ-22-ifx" id="E6K-GW-5Qd"/>
+                                            <outlet property="labelPais" destination="lfn-aF-jbl" id="8xi-Uv-Got"/>
+                                            <outlet property="labelPonente" destination="nDI-kj-c7H" id="R51-ns-cVf"/>
+                                            <outlet property="labelSede" destination="Xg0-OP-9Mw" id="LQt-3k-gCA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Loc-5b-P8m" id="bDn-O9-hXP"/>
+                                    <outlet property="delegate" destination="Loc-5b-P8m" id="rrd-9y-D4G"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6He-KN-pYW" firstAttribute="top" secondItem="SXI-UU-eUu" secondAttribute="top" id="2y7-ea-ov7"/>
+                            <constraint firstItem="6He-KN-pYW" firstAttribute="leading" secondItem="SXI-UU-eUu" secondAttribute="leading" id="8EP-gQ-oMu"/>
+                            <constraint firstAttribute="trailing" secondItem="6He-KN-pYW" secondAttribute="trailing" id="qhf-7A-9uP"/>
+                            <constraint firstItem="6He-KN-pYW" firstAttribute="bottom" secondItem="qtq-uq-GfU" secondAttribute="top" id="toT-Oo-6RE"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="6He-KN-pYW" id="0nb-9Z-nyq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7n9-tO-58K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1169" y="1023"/>
+            <point key="canvasLocation" x="1167.2" y="1019.640179910045"/>
         </scene>
         <!--Festival Fotografía 2016-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="NewsViewController" customModule="ACTabScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="NewsViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EmM-oy-FTz" customClass="ACTabScrollView" customModule="ACTabScrollView" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EmM-oy-FTz" customClass="ACTabScrollView" customModule="FIF_16" customModuleProvider="target">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="contentSectionBackgroundColor">
@@ -194,16 +344,16 @@
         <!--Demo View Controller-->
         <scene sceneID="9CW-yv-7Bo">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="S0q-1n-yhF" customClass="DemoViewController" customModule="ACTabScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="S0q-1n-yhF" customClass="DemoViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OVf-3x-AtA"/>
                         <viewControllerLayoutGuide type="bottom" id="14B-mi-1zy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hd5-6J-MDH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTT-i0-ccm" customClass="ACTabScrollView" customModule="ACTabScrollView" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTT-i0-ccm" customClass="ACTabScrollView" customModule="FIF_16" customModuleProvider="target">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -224,4 +374,7 @@
             <point key="canvasLocation" x="-253" y="-504"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cafeGaleriaAmparo" width="4725" height="3165"/>
+    </resources>
 </document>
