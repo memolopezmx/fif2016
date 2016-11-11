@@ -45,8 +45,23 @@ class RevistaViewController: UIViewController, UIScrollViewDelegate {
         self.scrollView.showsVerticalScrollIndicator = false
         self.scrollView.showsHorizontalScrollIndicator = false
         
-        
+//        let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+//        self.scrollView.addGestureRecognizer(tap)
     }
+    
+//    func handleTap(sender: UITapGestureRecognizer){
+//        print("handler")
+////        if(self.scrollView.zoomScale > self.scrollView.minimumZoomScale)
+////        [self.scrollView setZoomScale:self.scrollView.minimumZoomScale animated:YES];
+////        else
+////        [self.scrollView setZoomScale:self.scrollView.maximumZoomScale animated:YES];
+//        if self.scrollView.zoomScale > self.scrollView.minimumZoomScale {
+//            self.scrollView.setZoomScale(self.scrollView.minimumZoomScale, animated: true)
+//        } else {
+//            self.scrollView.setZoomScale(self.scrollView.maximumZoomScale, animated: true)
+//        }
+//
+//    }
     //Shake Gesture
     override var canBecomeFirstResponder: Bool {
         return true

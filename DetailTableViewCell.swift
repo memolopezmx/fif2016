@@ -15,6 +15,7 @@ class DetailTableViewCell: UITableViewCell {
     @IBOutlet weak var labelPonente: UILabel!
     @IBOutlet weak var labelPais: UILabel!
     @IBOutlet weak var labelSede: UILabel!
+    @IBOutlet weak var labelDireccion: UILabel!
     @IBOutlet weak var labelDescripcion: UILabel!
     
     override func awakeFromNib() {

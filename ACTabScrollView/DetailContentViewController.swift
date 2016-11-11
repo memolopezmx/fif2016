@@ -15,9 +15,12 @@ struct StretchyHeader {
 
 class DetailContentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
+    var eventoFif = EventoFIF()
     
+    
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageView: UIImageView!
+    
     var headerView: UIView!
     var newHeaderLayer: CAShapeLayer!
     
@@ -82,7 +85,45 @@ class DetailContentViewController: UIViewController, UITableViewDataSource, UITa
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath) as! DetailTableViewCell
-        cell.labelEvento.text = "hola mundo"
+        
+        cell.labelEvento.text = eventoFif.evento
+        cell.labelHora.text = eventoFif.horaIni
+        cell.labelPonente.text = eventoFif.ponente
+        cell.labelPais.text = eventoFif.pais
+        cell.labelSede.text = eventoFif.sede
+        cell.labelDireccion.text = eventoFif.direccion
+        cell.labelDescripcion.text = eventoFif.descripcion
+        
+        switch eventoFif.id {
+        case 1:
+            self.imageView.image = UIImage(named: "fundacionEsru")
+        case 2:
+            self.imageView.image = UIImage(named: "catedral")
+        case 3, 9:
+            self.imageView.image = UIImage(named: "cafe1940")
+        case 4, 10, 16:
+            self.imageView.image = UIImage(named: "cafeGaleriaAmparo")
+        case 5:
+            self.imageView.image = UIImage(named: "uvp")
+        case 6:
+            self.imageView.image = UIImage(named: "gente-de-mas-hostel")
+        case 7, 19:
+            self.imageView.image = UIImage(named: "capillaArte")
+        case 8, 17, 22, 23:
+            self.imageView.image = UIImage(named: "barrioDelArtista")
+        case 11, 12, 13, 15:
+            self.imageView.image = UIImage(named: "elCarolino")
+        case 18:
+            self.imageView.image = UIImage(named: "melilla")
+        case 20:
+            self.imageView.image = UIImage(named: "ibero")
+        case 21:
+            self.imageView.image = UIImage(named: "zocalo")
+            
+        default:
+            self.imageView.image = UIImage(named: "zocalo")
+        }
+        
         cell.selectionStyle = .none
         
         return cell
