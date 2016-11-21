@@ -198,8 +198,9 @@
 				TargetAttributes = {
 					6DB0CD1F1B8462B90069AE39 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = MC2W678MVZ;
+						DevelopmentTeam = BBDG42G87R;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					6DB0CD341B8462B90069AE39 = {
 						CreatedOnToolsVersion = 6.4;
@@ -371,7 +372,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Zavala (563J8949DS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Zavala (563J8949DS)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -398,14 +400,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = MC2W678MVZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BBDG42G87R;
 				INFOPLIST_FILE = ACTabScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.azurechen.ACTabScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamproject.fif16;
 				PRODUCT_NAME = "FIF 16";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "3ca8fa23-c6b6-4031-840f-ef6054e627d0";
+				PROVISIONING_PROFILE_SPECIFIER = "FIF 2016";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -413,15 +418,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = MC2W678MVZ;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Carlos Zavala (BBDG42G87R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BBDG42G87R;
 				INFOPLIST_FILE = ACTabScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.azurechen.ACTabScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamproject.fif16;
 				PRODUCT_NAME = "FIF 16";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "29d19152-4269-444b-89a8-413f57c8410c";
+				PROVISIONING_PROFILE_SPECIFIER = "FIF 2016";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
