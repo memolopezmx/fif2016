@@ -99,12 +99,11 @@ class PatrocinadoresViewController: UIViewController, UICollectionViewDataSource
         let wCell = UIScreen.main.bounds.width/2
         let size = CGSize(width: wCell, height: wCell)
 
+        //(collectionView.collectionViewLayout as! UICollectionViewFlowLayout).itemSize = size
+        
         return size
     }
-
-
     
-
 
 
 

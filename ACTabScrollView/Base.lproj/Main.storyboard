@@ -561,21 +561,21 @@
                                 <rect key="frame" x="0.0" y="108" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="SNJ-vc-WEc">
-                                    <size key="itemSize" width="187" height="183"/>
+                                    <size key="itemSize" width="123" height="149"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="patrocinadoresIdentifier" id="gQM-Gv-PPR" customClass="PatrocinadoresCollectionViewCell" customModule="FIF_16" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Jy-Re-3Ua">
-                                                    <rect key="frame" x="8" y="8" width="164" height="164"/>
+                                                    <rect key="frame" x="8" y="8" width="134" height="133"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -585,7 +585,7 @@
                                             <constraint firstItem="8Jy-Re-3Ua" firstAttribute="bottom" secondItem="gQM-Gv-PPR" secondAttribute="bottomMargin" id="TrL-jM-jcz"/>
                                             <constraint firstItem="8Jy-Re-3Ua" firstAttribute="leading" secondItem="gQM-Gv-PPR" secondAttribute="leadingMargin" id="jmD-Dn-cwe"/>
                                         </constraints>
-                                        <size key="customSize" width="180" height="180"/>
+                                        <size key="customSize" width="150" height="150"/>
                                         <connections>
                                             <outlet property="image" destination="8Jy-Re-3Ua" id="O3Y-D5-AF5"/>
                                         </connections>
