@@ -385,11 +385,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hfm-Zm-f9N" id="19k-9b-yNs">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="¿ QUÉ ES FIF 2016 ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CEY-18-B3s">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -405,11 +405,11 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JIK-fn-fhK" id="gGj-Sl-Vh9">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="PATROCINADORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WKs-Dt-3Rw">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -425,11 +425,11 @@
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XYE-x3-Yzl" id="rSF-Wn-tuk">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DIRECTORIO ORGANIZADORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NVg-Cv-xqA">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -445,11 +445,11 @@
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QHV-As-Dbp" id="L4M-0i-MXE">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CONTACTO DESARROLLADORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aQs-KL-lDA">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="43"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -539,10 +539,10 @@
             </objects>
             <point key="canvasLocation" x="1332" y="-1559.3703148425789"/>
         </scene>
-        <!--View Controller-->
+        <!--Patrocinadores View Controller-->
         <scene sceneID="iwV-Lf-tPi">
             <objects>
-                <viewController id="Vs0-Gw-1fh" sceneMemberID="viewController">
+                <viewController id="Vs0-Gw-1fh" customClass="PatrocinadoresViewController" customModule="FIF_16" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ATZ-ze-cbf"/>
                         <viewControllerLayoutGuide type="bottom" id="thC-RW-hiG"/>
@@ -557,21 +557,55 @@
                                 <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patrocinadores" translatesAutoresizingMaskIntoConstraints="NO" id="bkq-Ec-FAM">
-                                <rect key="frame" x="16" y="108" width="343" height="551"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="551" id="GoF-R0-3P8"/>
-                                </constraints>
-                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qNY-Qp-liu">
+                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="SNJ-vc-WEc">
+                                    <size key="itemSize" width="187" height="183"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="patrocinadoresIdentifier" id="gQM-Gv-PPR" customClass="PatrocinadoresCollectionViewCell" customModule="FIF_16" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Jy-Re-3Ua">
+                                                    <rect key="frame" x="8" y="8" width="164" height="164"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="8Jy-Re-3Ua" firstAttribute="top" secondItem="gQM-Gv-PPR" secondAttribute="topMargin" id="5yy-Kk-8cs"/>
+                                            <constraint firstItem="8Jy-Re-3Ua" firstAttribute="trailing" secondItem="gQM-Gv-PPR" secondAttribute="trailingMargin" id="QzD-UP-chN"/>
+                                            <constraint firstItem="8Jy-Re-3Ua" firstAttribute="bottom" secondItem="gQM-Gv-PPR" secondAttribute="bottomMargin" id="TrL-jM-jcz"/>
+                                            <constraint firstItem="8Jy-Re-3Ua" firstAttribute="leading" secondItem="gQM-Gv-PPR" secondAttribute="leadingMargin" id="jmD-Dn-cwe"/>
+                                        </constraints>
+                                        <size key="customSize" width="180" height="180"/>
+                                        <connections>
+                                            <outlet property="image" destination="8Jy-Re-3Ua" id="O3Y-D5-AF5"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Vs0-Gw-1fh" id="l65-Ox-gcB"/>
+                                    <outlet property="delegate" destination="Vs0-Gw-1fh" id="1Ry-8w-9yU"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="B91-EF-Jtd" firstAttribute="trailing" secondItem="Mus-gK-s3v" secondAttribute="trailingMargin" id="Cjt-SM-Baw"/>
-                            <constraint firstItem="bkq-Ec-FAM" firstAttribute="leading" secondItem="B91-EF-Jtd" secondAttribute="leading" id="D5y-Te-Yfc"/>
-                            <constraint firstItem="bkq-Ec-FAM" firstAttribute="trailing" secondItem="B91-EF-Jtd" secondAttribute="trailing" id="PB4-58-6dp"/>
-                            <constraint firstItem="bkq-Ec-FAM" firstAttribute="top" secondItem="B91-EF-Jtd" secondAttribute="bottom" constant="8" symbolic="YES" id="lEw-PY-TBT"/>
-                            <constraint firstItem="B91-EF-Jtd" firstAttribute="top" secondItem="ATZ-ze-cbf" secondAttribute="bottom" constant="8" symbolic="YES" id="v0c-vR-PXW"/>
-                            <constraint firstItem="B91-EF-Jtd" firstAttribute="leading" secondItem="Mus-gK-s3v" secondAttribute="leadingMargin" id="zzF-6s-8Mu"/>
+                            <constraint firstItem="B91-EF-Jtd" firstAttribute="leading" secondItem="Mus-gK-s3v" secondAttribute="leadingMargin" id="GwD-2l-YCd"/>
+                            <constraint firstItem="qNY-Qp-liu" firstAttribute="leading" secondItem="Mus-gK-s3v" secondAttribute="leading" id="MTl-qa-vw1"/>
+                            <constraint firstItem="B91-EF-Jtd" firstAttribute="centerX" secondItem="qNY-Qp-liu" secondAttribute="centerX" id="XTN-qs-fc6"/>
+                            <constraint firstItem="B91-EF-Jtd" firstAttribute="top" secondItem="ATZ-ze-cbf" secondAttribute="bottom" constant="8" symbolic="YES" id="eD4-Yi-qcz"/>
+                            <constraint firstItem="qNY-Qp-liu" firstAttribute="bottom" secondItem="thC-RW-hiG" secondAttribute="top" id="gwN-Ow-aHh"/>
+                            <constraint firstAttribute="trailing" secondItem="qNY-Qp-liu" secondAttribute="trailing" id="nZ3-mf-Zc6"/>
+                            <constraint firstItem="qNY-Qp-liu" firstAttribute="top" secondItem="B91-EF-Jtd" secondAttribute="bottom" constant="8" symbolic="YES" id="vDu-WE-xgu"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -759,6 +793,5 @@
     <resources>
         <image name="ibero" width="332" height="152"/>
         <image name="menu" width="28" height="20"/>
-        <image name="patrocinadores" width="624" height="840"/>
     </resources>
 </document>
